@@ -1,0 +1,13 @@
+name: 'Hello Sai'
+description: 'Greet someone'
+inputs:
+  name:
+    description: 'Name'
+    required: true
+    default: 'Sai'
+outputs:
+  greetings:
+    description: 'How we greet you'
+runs:
+  using: 'node20'
+  main: 'index.js'
